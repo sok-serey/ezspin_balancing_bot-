@@ -26,7 +26,7 @@ The custom motor driver also integrates an onboard IMU, providing real-time feed
 
 ### Robot Image
 
-![Robot Image](docs/images/robot.jpg)
+![Robot Image](Media/ezspin_balacing_bot_image.jpg)
 
 ---
 
@@ -38,7 +38,7 @@ The custom motor driver also integrates an onboard IMU, providing real-time feed
 
 ### System Architecture
 
-![System Architecture](docs/images/system_architecture.png)
+![System Architecture](Media/system_architecture.png)
 
 ---
 
