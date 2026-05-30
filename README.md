@@ -57,34 +57,4 @@ The custom motor driver also integrates an onboard IMU, providing real-time feed
 
 ---
 
-## Software Architecture
 
-The software is structured into modular layers:
-
-- Sensor acquisition  
-- Sensor fusion  
-- State estimation  
-- Balance controller  
-- Speed controller  
-- Steering controller  
-- Motor control layer  
-- Communication interface (CAN / ROS 2)  
-
----
-
-## Control Structure
-
-```text
-Desired Velocity
-        |
-        v
-Speed Controller
-        |
-        v
-Balance Controller
-        |
-        v
-Motor Controller
-        |
-        v
-BLDC Motors
