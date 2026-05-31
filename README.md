@@ -1,10 +1,13 @@
 # EzSpin Balancing Bot 🤖⚙️
 
+
+<p align="center">
+  <img src="Media/ezspin_bot.jpg" alt="EzSpin Balancing Bot" width="500">
+</p>
+
 ## Overview
-
 EzSpin Balancing Bot is a two-wheel self-balancing mobile robot powered by a custom BLDC motor driver.  
-The system is designed to control gimbal-type BLDC motors equipped with magnetic encoders via SPI communication.  
-
+The system is designed to control gimbal-type BLDC motors equipped with magnetic encoders via SPI communication.
 The custom motor driver also integrates an onboard IMU, providing real-time feedback for closed-loop control and robot stabilization.
 
 ---
