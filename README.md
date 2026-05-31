@@ -27,23 +27,31 @@ The custom motor driver also integrates an onboard IMU, providing real-time feed
 
 ## Robot Overview
 
-### Robot Image
-
-![Robot Image](Media/ezspin_balacing_bot_image.jpg)
-
----
-
 ### Control Architecture
 
-![Control Architecture](docs/images/control_architecture.png)
+The EzSpin Balancing Bot maintains stability using a cascade PID control architecture, consisting of an outer velocity control loop and an inner position control loop. The system can be further extended by integrating an Orange Pi 5B running ROS 2, enabling advanced high-level control and communication. A web-based GUI can be developed to send real-time velocity commands, which are then transmitted from the ROS 2 system to the EzSpin controller via the CAN bus protocol for robot motion control and balancing.
+
+![Control Architecture](Media/control_architecture.png)
 
 ---
 
 ### System Architecture
 
+The EzSpin controller is capable of controlling up to two motors simultaneously while utilizing onboard IMU feedback for real-time stabilization and motion control. The EzSpin board is designed as a ready-to-use solution that supports position, velocity, and torque control modes through both Serial and CAN Bus communication interfaces.
+
 ![System Architecture](Media/system_architecture.png)
 
 ---
+
+### Web GUI
+
+A web-based GUI is developed for real-time control of the EzSpin Bot by sending velocity commands to the robot. The commands are transmitted through the ROS 2 system and communicated to the EzSpin controller via the CAN Bus protocol, enabling responsive and interactive robot operation.
+
+<p align="center">
+  <img src="Media/web_interface.png" alt="Web GUI" width="500">
+</p>
+
+
 
 ## Hardware
 
